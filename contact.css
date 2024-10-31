@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bebas-neue-regular{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav_button{
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+.nav_logo{
+    height: 100px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-image: url(Bolt1.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+.name{
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+    width: 30%;
+    margin-left: 50px;   
+}
+a{
+    text-decoration: none;
+    display: inline;
+    margin: 0px 50px 0px 50px;
+    font-size: 18px;
+    color: white;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+.bar_items{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a:hover{
+    color: #FF3355
+}
+.bac_img{
+    height: 300px;
+    width: 100%;
+    background-image: url(grey\ background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    background-color: rgba(255, 255, 255, 0.174);
+    backdrop-filter: blur(10px);
+    font-size: 5rem;
+    height: 95px;
+    width: 450px;
+    /* margin: 20px; */
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+.contact{
+    background-image: url(grey\ background.jpg);
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact_form{
+    background-color: rgba(255, 255, 255, 0.174);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    border:2px solid black;
+    height: 450px;
+    width: 450px;
+    margin: 0 auto;
+}
+.form{
+    padding: 10px;
+}
+form>label{
+    display: block;
+}
+input, textarea {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px;
+    border-color: 2px  solid black;
+
+}
+
+input[type="text"], input[type="email"] {
+    height: 40px;
+    border: 2px solid black;
+}
+
+textarea {
+    height: 100px;
+    border: 2px solid black;
+}
+.button{
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+button:hover{
+    background-color: lightseagreen;
+}
+.getintouch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.174);
+    backdrop-filter: blur(10px);
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.touch{
+    font-size: 2.5rem;
+}
+.contact_email{
+    font-size: 1.8rem;
+}
+.foot{
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+}

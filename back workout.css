@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bebas-neue-regular{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.navbar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav_logo{
+    height: 100px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-image: url(Bolt1.jpeg);
+    background-size: cover;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+.name{
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+    width: 30%;
+    margin-left: 50px;   
+}
+a{
+    text-decoration: none;
+    display: inline;
+    margin: 0px 50px 0px 50px;
+    font-size: 18px;
+    color: white;
+}
+.list{
+    list-style-type: none;
+    display: inline;
+}
+.bar_items{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a:hover{
+    color: #FF3355
+}
+.bac_img{
+    height: 300px;
+    width: 100%;
+    background-image: url(back\ body\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    background-color: rgba(255, 255, 255, 0.307);
+    backdrop-filter: blur(20px);
+    font-size: 5rem;
+    height: 95px;
+    width: 500px;
+    text-align: center;
+    border-radius: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-color: #A7A7A7;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 450px;
+    background-color: #BFBFBF;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 450px;
+    background-color: #BFBFBF;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 350px;
+    background-color: #919191;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.c2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 350px;
+    background-color: #919191;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+.h2{
+    margin: 10px;
+    padding: 10px;
+    background-color: #FF3355;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.upper1_img{
+    height: 100px;
+    width: 100px;
+    background-image: url(dumbell\ rows.png);
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 20px;
+}
+.ex_name{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 18px;
+}
+.upper2_img{
+    height: 100px;
+    width: 100px;
+    background-image: url(seated\ cable\ row.png);
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 20px;
+}
+.lower1_img{
+    height: 100px;
+    width: 100px;
+    background-image: url(deadlift.png);
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 20px;
+}
+.lower2_img{
+    height: 100px;
+    width: 100px;
+    background-image: url(plank.png);
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 20px;
+}
+.foot{
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+}
